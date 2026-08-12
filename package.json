@@ -1,0 +1,9 @@
+{
+  "name": "x-promotion-filter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node tests/rules.test.js && node tests/validate.js",
+    "package": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/package.ps1"
+  }
+}

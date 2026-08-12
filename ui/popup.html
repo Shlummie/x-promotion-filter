@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>X Promotion Filter</title>
+    <link rel="stylesheet" href="ui.css">
+  </head>
+  <body class="popup">
+    <main>
+      <div class="brand">
+        <span class="mark" aria-hidden="true">X</span>
+        <div>
+          <h1>X Promotion Filter</h1>
+          <p>Promotion filtering is active.</p>
+        </div>
+      </div>
+
+      <label class="setting">
+        <span>
+          <strong>Allow paid partnerships</strong>
+          <small>Keep posts explicitly labeled as paid partnerships.</small>
+        </span>
+        <input id="allow-paid-partnerships" type="checkbox">
+      </label>
+      <p id="save-status" class="status" aria-live="polite"></p>
+    </main>
+    <script src="settings.js"></script>
+  </body>
+</html>

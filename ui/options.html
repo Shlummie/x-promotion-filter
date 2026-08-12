@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>X Promotion Filter settings</title>
+    <link rel="stylesheet" href="ui.css">
+  </head>
+  <body class="options">
+    <main>
+      <div class="brand">
+        <span class="mark" aria-hidden="true">X</span>
+        <div>
+          <h1>X Promotion Filter settings</h1>
+          <p>Ads, boosted posts, and sponsored content remain blocked.</p>
+        </div>
+      </div>
+
+      <section>
+        <label class="setting">
+          <span>
+            <strong>Allow paid partnerships</strong>
+            <small>When enabled, posts explicitly labeled “Paid partnership” remain visible.</small>
+          </span>
+          <input id="allow-paid-partnerships" type="checkbox">
+        </label>
+        <p id="save-status" class="status" aria-live="polite"></p>
+      </section>
+    </main>
+    <script src="settings.js"></script>
+  </body>
+</html>
